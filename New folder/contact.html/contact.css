@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>my first responsive website</title>
+    <style>
+        .spncontact{
+            width: 100px;
+            display: inline-block;
+        }
+    </style>
+    <link type="text/css"href="style/contact.css">
+</head>
+    <body>
+        <div style="background-color:greenyellow;width:500 px;padding-right: 20 px;">
+        <div><h1>contact us</h1></div>
+        >
+        <form>
+        <span class="spncontact">name:</span><input type="text"><br />
+        <span class="spncontact">email:email:</span><span class="spncontact"><input type="text"><br />
+            <span class="spncontact">mobile:</span><span class="spncontact">
+        <input type="text"><br />
+        <input type="submit">
+            </form>
+    </body>
+</html>
